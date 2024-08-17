@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "lint": "eslint */**/*.{js,ts,tsx}",
     "lint:fix": "eslint */**/*.{js,ts,tsx} --quiet --fix",
-    "prepare": "husky install"
+    "format": "prettier --write .",
+    "prepare": "husky install",
+    "gittu": "git add . && git commit && git push"
   },
   "dependencies": {
     "react": "^18.2.0",
